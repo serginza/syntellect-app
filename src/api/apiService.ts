@@ -19,7 +19,7 @@ export function getCountryByName(countryName: string): Promise<CountryInfo[]> {
     return countries.filter(
       (x) =>
         x.name.toLocaleLowerCase().startsWith(searchText) ||
-        x.fullName.toLocaleLowerCase().startsWith(searchText)
+        x.fullName.toLocaleLowerCase().startsWith(searchText),
     );
   });
 }

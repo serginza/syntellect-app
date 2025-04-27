@@ -1,0 +1,22 @@
+.button-element {
+  min-width: 150px;
+  height: auto;
+  padding: 5px;
+  color: white;
+  outline: none;
+  border: none;
+  background: rgba(67, 86, 255, 0.7);
+  border-radius: 3px;
+  line-height: 1.5;
+  transition: all 0.1s ease;
+  cursor: pointer;
+}
+
+.button-element:hover {
+  background: rgba(67, 86, 255, 1);
+}
+
+.button-element:active {
+  background: rgba(67, 86, 255, 0.9);
+  transform: scale(0.98);
+}
